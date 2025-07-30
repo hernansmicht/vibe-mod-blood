@@ -1,0 +1,22 @@
+.cell {
+  width: 100px;
+  height: 100px;
+  font-size: 3rem;
+  font-weight: bold;
+  background-color: #f8f9fa;
+  border: 2px solid #dee2e6;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.cell:hover:not(:disabled) {
+  background-color: #e9ecef;
+}
+
+.cell:disabled {
+  cursor: default;
+}
